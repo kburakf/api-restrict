@@ -1,4 +1,4 @@
-## What Is This API Restrict Project?
+## What Is API Restrict?
 
 A restricted API is an application program interface whose access, or use, is intentionally limited by web site developers for security purposes or business reasons. APIs are restricted by API keys, which are unique codes passed between a project on one end and the web site's APIs on the other.
 
