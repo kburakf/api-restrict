@@ -5,6 +5,7 @@ const { tokenKey } = require('../config/environments/default');
 
 module.exports = class AuthLogic {
   static encryptPassword({ password }) {
+    // Salted hash method ignored for test case.
     return bcrypt.hash(password, 10);
   }
 

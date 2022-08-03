@@ -3,7 +3,7 @@ const SERVICE = require('../../constants/services');
 module.exports = {
   env: process.env.NODE_ENV || 'dev',
   mongodb: {
-    url: process.env.MONGO_URL || 'mongodb://mongodb:27017/outvio',
+    url: process.env.MONGO_URL || 'mongodb://mongodb:27017/api-restrict',
   },
   server: {
     port: process.env.PORT || 3000,
