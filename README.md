@@ -1,4 +1,8 @@
-# How To Use
+## What Is This API Restrict Project?
+
+A restricted API is an application program interface whose access, or use, is intentionally limited by web site developers for security purposes or business reasons. APIs are restricted by API keys, which are unique codes passed between a project on one end and the web site's APIs on the other.
+
+## How To Use
 
 - If you have a Docker on your local machine, you can run this project with `docker-compose up` command.
 - After you run this project on your local machine, you can access the swagger documentation here: `http://localhost:3000/documentation`.
