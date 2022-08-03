@@ -60,5 +60,5 @@ exports.userLogin = async ({ email, password }) => {
 
   const token = AuthLogic.generateToken({ user });
 
-  return { message: 'success', token };
+  return { token, message: 'success' };
 };

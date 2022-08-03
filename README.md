@@ -2,7 +2,6 @@
 
 - If you have a Docker on your local machine, you can run this project with `docker-compose up` command.
 - After you run this project on your local machine, you can access the swagger documentation here: `http://localhost:3000/documentation`.
-- If you want to try this on prod, here is the documentation link: `https://api-restrict.herokuapp.com/documentation/`.
 - To get a token you need to create an account first.
 - Default api request limit 5, time required for new request 5 minutes. You can change these values by adding `.env` file.
 

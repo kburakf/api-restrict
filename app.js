@@ -7,7 +7,7 @@ async function app() {
   const server = new Server();
   const mongooseConnection = new MongooseConnection();
 
-  mongooseConnection.start();
+  await mongooseConnection.start();
   RedisConnection.start();
   server.start();
 }

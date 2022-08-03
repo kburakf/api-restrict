@@ -10,7 +10,7 @@ const swagger = require('../config/swagger');
 const { server: { port } } = require('../config/environments/default');
 
 module.exports = class Server {
-  async start() {
+  start() {
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(bodyParser.json());
     app.use('/documentation', swaggerUI.serve, swaggerUI.setup(swagger));
